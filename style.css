@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.child1>img{
+    width: 100%;
+}
+.parent2,.parent3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.parent4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.box>div{
+    width: 33.33%;
+    gap: 70px;
+}
+.parent5,.parent6{
+    display: flex;
+    padding: 50px 0;
+
+
+}
+.parent5 img{
+    width: 100px;
+    height: 100px;
+}
+.parent5>P{
+    text-align: center;
+    padding: 30px 2px;
+}
+.parent6>img{
+    width: 100px;
+    height: 100px;
+}
+.parent6>P{
+    text-align: center;
+    /* padding: 5px 2px; */
+}
